@@ -10,7 +10,7 @@ def is_palindrome(s):
 
 class TestPalindrome(unittest.TestCase):
     def firstTest(self):
-        self.assertTrue(is_palindrome("cock"))
+        self.assertTrue(is_palindrome("test"))
 
 if __name__ == '__main__':
     unittest.main()
